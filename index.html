@@ -159,12 +159,6 @@
     const query = queryInput.value.trim();
     if (!query) return;
 
-    if (API_KEY === "AIzaSyCNwm-90UT8IW2ju6MtBOouE9ISJkwF8PY") {
-      statusBox.textContent =
-        "Add your YouTube API key in index.html first.";
-      return;
-    }
-
     resultsBox.replaceChildren();
     statusBox.textContent = "Searching...";
     
